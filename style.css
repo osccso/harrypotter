@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+.location 
+{
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+}
+.buttonup {
+    padding: 1px;
+}
+.buttondown {
+    padding: 1px;
+    margin-top: 90vh;
+}
+button {
+    border-radius: 10vw;
+    background-color: yellow;
+    margin: 1vw;
+    padding: 1vw;
+    width: 15vw;
+    height: 5vh;
+}
+button:hover
+{
+    color: red;
+}
+button:active
+{
+    background-color: gray;
+}
+#nuevo{
+    visibility: hidden;
+}
+.main {
+    overflow: hidden;
+    text-align: center;
+    background: url("./background.jpg") no-repeat center center fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+.logo {
+    text-align: center;
+    z-index: 10;
+}
+#logo {
+    height: 25vh;
+}
+#character {
+    height: 55vh;
+    max-width: 90%;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.window {
+    background-color: bisque;
+    width: 40vw;
+    height: 80vh;
+    margin: 15vh 30vw 0vh 30vw;
+    border-radius: 5vw;
+    padding: 1px;
+    visibility: hidden;
+}
+img {
+    background: transparent;
+}
